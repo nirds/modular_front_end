@@ -1,1 +1,52 @@
-<h1> Hello y'all!</h1>
+<header>
+  <%= link_to 'The Wedge Issue', root_path, class: 'logo', alt: 'The Wedge Issue', title: 'The Wedge Issue' %>
+  <nav>
+    <ul>
+      <li><%= link_to 'Pizzas', root_path %></li>
+      <li><%= link_to 'Locations', root_path %></li>
+      <li><%= link_to 'Delivery', root_path %></li>
+    </ul>
+  </nav>
+</header>
+
+<body>
+  <div class = 'pizza'>
+    <h1 class = 'name'>The Undecided Voter</h1>
+    <%= image_tag "placeholder.png" %>
+    <aside class = 'ingredients'>
+      Molten cheese and red sauce, on delightfully paper-thin New York Style crust.
+    </aside>
+  </div>
+  <div class = 'pizza'>
+    <h1 class = 'name'>The Heartland</h1>
+    <%= image_tag "placeholder.png" %>
+    <aside class = 'ingredients'>
+      Pepperoni and black olives. An All-American classic!
+    </aside>
+  </div>
+  <div class = 'pizza'>
+    <h1 class = 'name'>The Alaska</h1>
+    <%= image_tag "placeholder.png" %>
+    <aside class = 'ingredients'>
+      Sarah Palin would be proud. Sausage, pepperoni, salami, ham and bacon. Caraboo steak extra.
+    </aside>
+  </div>
+  <div class = 'pizza'>
+    <h1 class = 'name'>The San Fransisco</h1>
+    <%= image_tag "placeholder.png" %>
+    <aside class = 'ingredients'>
+      Organic Tofu.
+    </aside>
+  </div>
+  <div class = 'pizza'>
+    <h1 class = 'name'>The Swing State</h1>
+    <%= image_tag "placeholder.png" %>
+    <aside class = 'ingredients'>
+      Half sausage, salami and garlic. Half green peppers, black olives, mushrooms and onion.
+    </aside>
+  </div>
+</body>
+
+<footer>
+  <small>&#169; The Wedge Issue, an Imaginary Company 2020 </small>
+</footer>
