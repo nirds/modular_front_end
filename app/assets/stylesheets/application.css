@@ -11,3 +11,8 @@
  *= require_self
  *= require_tree .
  */
+
+@import url(http://fonts.googleapis.com/css?family=Limelight|Crushed);
+
+h1 { font-family: 'Limelight', Arial, serif; font-weight: 400; }
+p { font-family: 'Crushed', Arial, serif; font-weight: 400;}
