@@ -1,5 +1,7 @@
 <header>
-  <%= link_to 'The Wedge Issue', root_path, class: 'logo', alt: 'The Wedge Issue', title: 'The Wedge Issue' %>
+  <%= link_to root_path, class: 'logo', alt: 'The Wedge Issue', title: 'The Wedge Issue' do %>
+    <span class = 'article'>The</span> <span class = 'nouns'>Wedge Issue</span>
+  <% end %>
   <nav>
     <ul>
       <li><%= link_to 'Pizzas', root_path %></li>
