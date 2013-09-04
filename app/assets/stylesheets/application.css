@@ -18,6 +18,8 @@ h1 {
   font-family: 'Limelight', Arial, serif; 
   font-weight: 400; 
   font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 15px;
   color: white;
 }
 aside, small {
