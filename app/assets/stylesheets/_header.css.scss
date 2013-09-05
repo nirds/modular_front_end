@@ -1,6 +1,7 @@
+$body_width: 1200px !default;
 
 header {
-  width: 1200px;
+  width: $body_width;
   height: 100px;
   margin-left: -20px;
   padding-left: 20px;

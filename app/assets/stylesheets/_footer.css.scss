@@ -1,5 +1,7 @@
+$body_width: 1200px !default;
+
 footer {
-  width: 1200px;
+  width: $body_width;
   margin-left: -20px;
   padding-left: 20px;
   background-color: #6A0000;
