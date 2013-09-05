@@ -12,53 +12,10 @@
  *= require_tree .
  */
 
-@import 'typography';
+@import 'typography', 
+        'header';
 
-nav > ul > li {
-  float: left;
-  font-size: 20px;
-  margin-right: 20px;
-}
-nav > ul {
-  list-style-type: none;
-}
 
-.logo {
-  float: left;
-  width: 200px;
-  height: 100px;
-  font-size: 25px;
-}
-
-.logo > .article {
-  font-size: 10px;
-}
-
-.logo > .icon {
-  font-size: 50px;
-  color: black;
-  position: relative;
-  z-index: 1;
-}
-
-.logo > .icon:before {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  left: -37px;
-  top: 0;
-  width: 0;
-  border-top: solid #FFE09D 60px;
-  border-left: solid 60px transparent;
-  border-right: solid 60px transparent;
-  border-radius: 50%;
-}
-
-nav {
-  float: left;
-  margin-top: 25px;
-  margin-left: 50px;
-}
 
 html {
   background-color: white;
