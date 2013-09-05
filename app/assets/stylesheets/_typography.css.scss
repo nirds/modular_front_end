@@ -1,28 +1,35 @@
 @import url(http://fonts.googleapis.com/css?family=Limelight|Crushed);
 
-h1 { 
+%header_family {
   font-family: 'Limelight', Arial, serif; 
   font-weight: 400; 
+}
+
+%text_color {
+  color: white;
+}
+
+h1 { 
+  @extend %header_family;
   font-size: 30px;
   margin-top: 10px;
   margin-bottom: 15px;
-  color: white;
+  @extend %text_color
 }
 aside, small {
   font-family: 'Crushed', Arial, serif; 
   font-weight: 400;
-  color: white;
+  @extend %text_color
 }
 
 a { 
-  font-family: 'Limelight', Arial, serif;
-  font-weight: 400;
+  @extend %header_family;
   text-decoration: none;
-  color: white;
+  @extend %text_color
 }
 a:hover {
   text-decoration: underline;
 }
 a:visited{
-  color: white;
+  @extend %text_color
 }
