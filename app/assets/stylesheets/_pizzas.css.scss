@@ -1,0 +1,15 @@
+aside {
+  font-size: 20px;
+  display: block;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin-top: -250px;
+}
+
+img {
+  position: relative;
+  z-index: 1;
+  width: 250px;
+  height: 250px;
+}
